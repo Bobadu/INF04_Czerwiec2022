@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Domek w górach</string>
+    <string name="tytul">Domek w górach</string>
+    <string name="polub">POLUB</string>
+    <string name="usun">USUŃ</string>
+    <string name="zapisz">ZAPISZ</string>
+    <string name="polubienia">%1$d polubień</string>
+    <string name="opis">Opis</string>
+    <string name="tresc_opisu">Odwiedź komfortowy domek w Sudetach, blisko do szlaków turystycznych</string>
+    <string name="zapisano">Zapisano ofertę, liczba polubień: %1$d</string>
+</resources>

@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:paddingTop="20dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:paddingStart="8dp"
+            android:paddingEnd="8dp"
+            android:text="@string/tytul"
+            android:textColor="#424242"
+            android:textSize="34sp" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:adjustViewBounds="true"
+            android:contentDescription="@string/tytul"
+            android:scaleType="fitCenter"
+            android:src="@drawable/obraz" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#008080"
+            android:orientation="horizontal"
+            android:paddingTop="6dp"
+            android:paddingBottom="6dp">
+
+            <Button
+                android:id="@+id/przyciskPolub"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:backgroundTint="#008080"
+                android:text="@string/polub"
+                android:textColor="@android:color/white" />
+
+            <Button
+                android:id="@+id/przyciskUsun"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:backgroundTint="#008080"
+                android:text="@string/usun"
+                android:textColor="@android:color/white" />
+
+            <Button
+                android:id="@+id/przyciskZapisz"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:backgroundTint="#008080"
+                android:text="@string/zapisz"
+                android:textColor="@android:color/white" />
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/liczbaPolubien"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="end"
+            android:padding="10dp"
+            android:textColor="#424242"
+            android:textSize="18sp"
+            tools:text="0 polubień" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#808080" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingStart="8dp"
+            android:paddingTop="10dp"
+            android:paddingEnd="8dp"
+            android:text="@string/opis"
+            android:textColor="#424242"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingStart="8dp"
+            android:paddingTop="6dp"
+            android:paddingEnd="8dp"
+            android:text="@string/tresc_opisu"
+            android:textColor="#808080"
+            android:textSize="18sp" />
+
+    </LinearLayout>
+
+</LinearLayout>
